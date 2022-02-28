@@ -1,4 +1,4 @@
-let corsHeader = 'https://the-ultimate-api-challenge.herokuapp.com';
+let corsHeader = 'https://cors-anywhere.herokuapp.com';
 let url = 'https://concentrix-database.herokuapp.com/api/users'
 
 
