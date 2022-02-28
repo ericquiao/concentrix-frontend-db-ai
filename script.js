@@ -1,4 +1,4 @@
-let corsHeader = 'https://cors-anywhere.herokuapp.com';
+let corsHeader = 'https://api.allorigins.win/raw?url=';
 let url = 'https://concentrix-database.herokuapp.com/api/users'
 
 
@@ -11,7 +11,7 @@ function retrieveData(){
 
   let person = displayPatient;
 
-fetch(`${corsHeader}/${url}/${person}`)
+fetch(`${corsHeader}${url}/${person}`)
 .then(res=>res.json())
 .then(data=>{
   console.log(data)
